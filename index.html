@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/zx-style.css">
+    <link rel="stylesheet" href="./css/media-quries.css">
+</head>
+
+<body>
+    <section id="zx-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <button class="navbar-toggler  my-3 mx-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="row collapse navbar-collapse zx-head-r1" id="navbarTogglerDemo01">
+                <div class="col-lg-2 col-md-12 logo-div">
+                    <a href="#" class="h-logo-img-btn">
+                        <img src="./img/logo.png" class="h-logo-img" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 h-center-d">
+                    <div class="row  w-100">
+                        <div class="col-lg-4 col-md-12">
+                            <select class="zx-form-control form-select w-100" aria-label="Default select example">
+                                <option selected disabled>Categories</option>
+                                <option value="1">Products</option>
+                                <option value="2">Companies</option>
+                                <option value="3">Services</option>
+                                <option value="3">Events</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4 col-md-12 head-search">
+                            <div class="search-bar">
+                                <form class="search-form d-flex align-items-center">
+                                    <input type="text" name="query" placeholder="Keyword" title="Enter search keyword">
+                                    <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 head-btns">
+                            <div class="dropdown">
+                                <button class="btn btn-sm browse-btn dropdown-toggle" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Browse
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Products</a></li>
+                                    <li><a class="dropdown-item" href="#">Companies</a></li>
+                                    <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                                    <li><a class="dropdown-item" href="#">Product Deals</a></li>
+                                    <li><a class="dropdown-item" href="#">Product Videos</a></li>
+                                    <li><a class="dropdown-item" href="#">Services</a></li>
+                                    <li><a class="dropdown-item" href="#">Services Deals</a></li>
+                                    <li><a class="dropdown-item" href="#">Events</a></li>
+                                </ul>
+                                <button class="btn btn-sm sale-btn" type="button">Sale Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 h-center-e">
+                    <ul class="zx-head-r-ul">
+                        <li><a href="#">Sign In</a></li>
+                        <li class="h-center-li">
+                            <select class="form-select head-lang-select form-select-sm"
+                                aria-label=".form-select-sm example">
+                                <option selected disabled>Select Language</option>
+                                <option value="1">English</option>
+                                <option value="2">Spanish</option>
+                                <option value="3">French</option>
+                                <!-- Add more languages as needed -->
+                            </select>
+                        </li>
+                        <li><a href="#">Join Free</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </nav>
+    </section>
+
+    <section id="zx-slider">
+        <div class="container-fluid px-0">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/camera.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bee2buy App for Mobile Android</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/headphone.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bee2buy App for Mobile Android</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/mobil.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bee2buy App for Mobile Android</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="zx-products">
+        <div class="row">
+            <div class="col-12 product-h-div">
+                <h1 class="product-h"><span>Products</span></h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/camera.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/headphone.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/mobil.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/car_spray1.png" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/camera.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/headphone.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/mobil.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  col-xs-12">
+                    <div class="prod-card">
+                        <div class="card-img-d">
+                            <img src="./img/car_spray1.png" class="w-100" alt="">
+                        </div>
+                        <div class="card-cont-d">
+                            <div class="row">
+                                <div class="col-10">
+                                    <a href="#" class="prod-card-title-a">
+                                        <h5 class="prod-card-title">Lorem ipsum dolor sit amet consectetur.</h5>
+                                    </a>
+                                </div>
+                                <div class="col-2 card-google-icon">
+                                    <a href="https://www.google.com/search?q=Rattan+Core/+Rattan+Peel+for+Garden+Furniture+bee2buy.com"
+                                        target="_blank"><img style="float:right; margin-right:2px; margin-top:-5px;"
+                                            src="https://bee2buy.com/site_uploads/g_icon.png"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card-hashing">
+                                        <span>#Lorem ipsum.</span>
+                                        <span>#ipsum.</span>
+                                        <span>#uam.</span>
+                                        <span>#Kuwm.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-foot">
+                            <div class="row">
+                                <div class="col-8">
+                                    <a href="#" class="card-f-txt">Lorem, ipsum dolor.</a>
+                                </div>
+                                <div class="col-4 card-prod-price-d">
+                                    <span class="card-prod-price">$ 45</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- <section id="zx-product-videos">
+        <div class="video_bg clearfix">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 product-h-div">
+                        <h1 class="product-h"><span>Products Videos</span></h1>
+                    </div>
+                </div>
+                <div class="row zx-video-r">
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/MLZJ-q4JpWk"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/MLZJ-q4JpWk">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/uunjd3HQYO0"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/uunjd3HQYO0">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/XMTjAcsrrmE"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/XMTjAcsrrmE">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/X191aw9GWDI"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/X191aw9GWDI">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/QPTzwbIhiBQ"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/QPTzwbIhiBQ">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/1LxXkjW3lfM"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/1LxXkjW3lfM">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/_POhoJRCDOI"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/_POhoJRCDOI">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/wNEsBQURxqk"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/wNEsBQURxqk">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/Jlmkc3aNRLU"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/Jlmkc3aNRLU">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/hCseQdrgHho"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/hCseQdrgHho">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/KcViAsicMiw"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/KcViAsicMiw">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/ZT1lLw082lo"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/ZT1lLw082lo">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/qcz7zI48_QQ"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/qcz7zI48_QQ">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/5q9csoQ2W_c"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/5q9csoQ2W_c">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/Ji2UB8YjZMs"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/Ji2UB8YjZMs">
+                            </object>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="video_box">
+
+                            <object width="100%" data="https://www.youtube.com/v/71iG9Ftf7aA"
+                                type="application/x-shockwave-flash">
+                                <param name="src" value="https://www.youtube.com/v/71iG9Ftf7aA">
+                            </object>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <a href="https://bee2buy.com/product_list/product_video" style="margin:20px auto;"
+                                class="text_wht">
+                                More...
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>   -->
+
+    <section id="zx-footer">
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="newsletter-form">
+                            <form action="" method="post">
+                                <input type="email" name="email" placeholder="Subscribe to business news">
+                                <input type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end foot-google-play-d">
+                        <a href="#" class="foot-app-store">
+                            <img src="./img/app-store.jpg" alt="">
+                        </a>
+                        <a href="#" class="foot-google-play">
+                            <img src="./img/google-play.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="foot-ul">
+                            <li><a href="https://bee2buy.com/privacy">Privacy Statement</a></li>
+                            <li><a href="https://bee2buy.com/terms_use">Terms of Use</a></li>
+                            <li><a href="https://bee2buy.com/contact">Contact Us</a></li>
+                            <li><a href="https://bee2buy.com/business_news">Business News</a></li>
+                            <li><a href="https://bee2buy.com/business_links">Business Link</a></li>
+                            <li><a href="https://bee2buy.com/company_bee_faqs">Bee2buy FAQs</a></li>
+                            <li><a href="./marketplace-post.html">Post it</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-12 foot-copyright">
+                        <span class="foot-copyright-span">
+                            © 2015 <a href="https://bee2buy.com/">Bee2Buy.</a> All Rights Reserved.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+    </section>
+
+    <section id="zx-popup-form">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn xs-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <span class="pe-3">Post Product / Service</span>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                    <path
+                        d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0" />
+                </svg>
+            </span>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="" id="staticBackdropLabel">
+                            <div class="zx-tab my-1">
+                                <button id="su" class="zx-tablinks" data-tab="tab1">Service Upload</button>
+                                <button id="pu" class="zx-tablinks" data-tab="tab2">Product Upload</button>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+
+                    <div class="modal-body">
+                        <div id="tab1" class="zx-tabcontent">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-12">
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div id="tab2" class="zx-tabcontent">
+                            <h2>Tab 2</h2>
+                            <p>Content for tab 2 goes here. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Assumenda
+                                aperiam, labore
+                                autem placeat laboriosam adipisci ea facilis. Fugit voluptatibus enim ratione ad
+                                obcaecati
+                                cumque, aperiam
+                                doloremque voluptas accusantium nihil ullam accusamus autem corporis incidunt nisi illo
+                                deleniti
+                                minima
+                                reprehenderit. In suscipit dolor saepe molestiae ad iure facere architecto cumque
+                                dolores.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+    </script>
+    <script src="./js/zx-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

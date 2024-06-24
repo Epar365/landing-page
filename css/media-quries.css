@@ -1,0 +1,336 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navbarTogglerDemo01 > .container-fluid > .row {
+        margin: 1rem 0;
+    }
+
+    .zx-head-r1 {
+        padding: 1rem;
+        padding-top: 0;
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    .head-search {
+        margin: 1rem 0;
+    }
+
+    .zx-form-control,
+    .search-form input {
+        padding: .8rem;
+    }
+    .head-btns{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .head-btns > .dropdown {
+        width: 100% !important;
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+    }
+
+    .head-btns > .dropdown > button {
+        width: 96% !important;
+        padding: .8rem .5rem;
+        margin: .4rem;
+    }
+    .carousel-item {
+        height: 70vh;
+    }
+    .product-h-div {
+        margin: 3rem 0 1rem 0;
+    }
+    .prod-card {
+        scale: .95 ;
+        transition: all .2s ease-in-out;
+    }
+    .prod-card:hover{
+        scale: 1 ;
+        transition: all .2s ease-in-out;
+    }
+    .card-img-d {
+        height: 50vh;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .foot-google-play-d{
+        display: flex;
+        justify-content: space-between !important;
+        margin-bottom: 1rem;
+    }
+    .foot-google-play-d > *{
+        display: flex;
+        justify-content: space-between !important;
+        margin-bottom: 1rem;
+    }
+
+    .foot-app-store{
+        padding-left: 0;
+    }
+    .zx-mp-txt-area{
+        width: 100%;
+    }
+    .zx-mp-sub-btns{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .zx-contact-form input{
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    .zx-contact-form textarea{
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #navbarTogglerDemo01 > .container-fluid > .row {
+        margin: 1rem 0;
+    }
+
+    .zx-head-r1 {
+        padding: 1rem 0;
+        padding-top: 0;
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: flex-start;
+        margin: 1rem 0;
+    }
+    .zx-head-r1 > div{
+        margin: 1rem 0;
+    }
+    .head-search {
+        margin: 2rem 0 !important;
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .head-search {
+        margin: 1rem 0;
+    }
+
+    .zx-form-control,
+    .search-form input {
+        padding: .8rem;
+    }
+
+    .head-btns > .dropdown {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .head-btns > .dropdown > button {
+        width: 45% !important;
+        padding: .8rem .5rem;
+    }
+    .product-h-div {
+        margin: 3rem 0 2rem 0;
+    }
+    .card-img-d {
+        height: 50vh;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .foot-google-play-d{
+        display: flex;
+        justify-content: space-between !important;
+        margin-bottom: 1rem;
+    }
+    .foot-google-play-d > *{
+        display: flex;
+        justify-content: space-between !important;
+        margin-bottom: 1rem;
+    }
+
+    .foot-app-store{
+        padding-left: 0;
+    }
+    .h-center-d{
+        padding: 2rem;
+    }
+    .zx-mp-txt-area{
+        width: 100%;
+    }
+    .zx-mp-sub-btns{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .zx-contact-form input{
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    .zx-contact-form textarea{
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add your custom styles for medium devices here */
+    #navbarTogglerDemo01 > .container-fluid > .row {
+        margin: 1rem 0;
+    }
+
+    .zx-head-r1 {
+        padding: 1rem 0;
+        padding-top: 0;
+    }
+    .logo-div {
+        display: flex;
+        justify-content: center !important ;
+    }
+    .zx-head-r1 > div{
+        margin: 1rem 0;
+    }
+    .head-search {
+        margin: 2rem 0 !important;
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .head-search {
+        margin: 1rem 0;
+    }
+
+    .zx-form-control,
+    .search-form input {
+        padding: .8rem;
+    }
+
+    .head-btns > .dropdown {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .head-btns > .dropdown > button {
+        width: 45% !important;
+        padding: .8rem .5rem;
+    }
+    .product-h-div {
+        margin: 3rem 0 2rem 0;
+    }
+    .card-img-d {
+        height: 40vh;
+    }
+    .newsletter-form {
+        width: 100%;
+    }
+    .foot-google-play-d{
+        display: flex;
+        justify-content: end;
+        margin-bottom: 1rem;
+    }
+    .foot-google-play-d > *{
+        display: flex;
+        justify-content: space-between !important;
+        margin-bottom: 1rem;
+    }
+
+    .foot-app-store{
+        padding-left: 0;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add your custom styles for large devices here */
+    .h-center-d > .row > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .h-center-e{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head-btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .head-btns > .dropdown{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: crimson; */
+    }
+
+    .zx-form-control, .search-form input, .dropdown button{
+        padding: .3rem;
+        font-size: .7rem !important;
+    }
+    .dropdown button{
+        padding: .4rem .3rem;
+    }
+    .zx-head-r-ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .zx-head-r-ul li{
+        padding-inline: .4rem;
+        width: fit-content;
+
+    }
+    .zx-head-r-ul li a{
+        padding-inline: .4rem;
+        font-size: .8rem !important;
+    }
+    .head-lang-select {
+        padding-inline: .4rem;
+        font-size: .8rem !important;
+        background-color: transparent;
+    }
+    .zx-form-control option {
+        font-size: 1rem;
+        display: block;
+        padding: 1rem !important;
+    }
+    .head-btns .dropdown .browse-btn{
+        margin-right: .6rem;
+    }
+    .card-cont-d, .card-foot{
+        padding: .7rem;
+    }
+    .prod-card-title{
+        font-size: .95rem;
+        font-weight: 600;
+        
+    }
+    .card-hashing span, .card-f-txt{
+        font-size: .85rem;
+    }
+
+    
+    
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Add your custom styles for extra large devices here */
+}
